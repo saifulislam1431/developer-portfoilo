@@ -280,3 +280,23 @@ body {
     color: #BDBDBD;
 }
 /* Footer style start */
+
+
+@media screen and (max-width:900px) {
+    .container {
+        padding: 30px 50px;
+    }
+    #content-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+    #skills {
+        flex-direction: column;
+    }
+    .project-container {
+        flex-direction: column;
+    }
+    #footer{
+        text-align: center;
+        margin-top: 70px;
+    }
+}
