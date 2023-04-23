@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    padding: 30px 50px;
+    padding: 30px 80px;
 }
 
 /* Developer Intro card style start  */
@@ -28,6 +28,15 @@ body {
 
 .card {
     width: 250px;
+    height: fit-content;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.card2 {
+    width: 100%;
     height: fit-content;
     background-color: #FFFFFF;
     padding: 20px;
@@ -137,6 +146,7 @@ body {
 #skills {
     display: flex;
     gap: 20px;
+    margin-bottom: 20px;
 }
 
 .skill {
@@ -161,9 +171,72 @@ body {
     animation: my-animation 2s ease;
 }
 
-@keyframes my-animation{
-    from{
+@keyframes my-animation {
+    from {
         width: 0%;
     }
 }
+
 /* Skills card style end  */
+
+/* project card style  */
+.project-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 180px;
+    border-radius: 15px
+}
+
+.tags {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tags p {
+    color: #4F4F4F;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.project-name {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.btn-primary,
+.btn-secondary {
+    margin-top: 20px;
+    padding: 8px 25px;
+    border: 1px solid #2F80ED;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #2F80ED;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    color: #2F80ED;
+    background-color: #FFFFFF;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #2F80ED;
+}
+
+.btn-secondary:hover {
+    background-color: #2F80ED;
+   color: #FFFFFF;
+}
+/* project card style  end*/
