@@ -245,6 +245,8 @@ body {
 }
 /* project card style  end*/
 
+/* Blogs style start */
+
 #blogs{
     margin-top: 80px;
 }
@@ -259,3 +261,22 @@ body {
     text-decoration: none;
     color: #2F80ED;
 }
+/* Blogs style end */
+
+/* Footer style start */
+#footer{
+    text-align: center;
+    margin-top: 150px;
+}
+.footer-details{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #BDBDBD;
+    line-height: 17px;
+}
+
+.link{
+    font-weight: 700;
+    color: #BDBDBD;
+}
+/* Footer style start */
