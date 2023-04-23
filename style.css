@@ -14,7 +14,6 @@ body {
     display: grid;
     grid-template-columns: 2fr 4fr;
     justify-content: center;
-    align-items: center;
     gap: 30px;
 }
 
@@ -29,6 +28,7 @@ body {
 
 .card {
     width: 250px;
+    height: fit-content;
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 8px;
@@ -67,57 +67,103 @@ body {
     color: #828282;
     font-weight: 500;
 }
+
 /* Developer Intro card style end  */
 
 
 /* Experience card style start */
-.card-title{
+.card-title {
     color: #4F4F4F;
     font-weight: 600;
 }
-.experiences{
+
+.experiences {
     margin-top: 30px;
     display: flex;
     gap: 20px;
 }
-.logo{
+
+.logo {
     width: 60px;
 }
-.date-position{
+
+.date-position {
     margin-bottom: 15px;
 }
-.date{
+
+.date {
     font-size: 14px;
     margin-bottom: 3px;
     color: #828282;
 }
-.job-description{
+
+.job-description {
     font-size: 14px;
     font-weight: 500;
     color: #828282;
 }
+
 /* Experience card style end */
 
 
 /* Hobbie card style start */
-.hobbie{
+.hobbie {
     margin-top: 15px;
 }
-.hobbie-img{
-    margin-top:20px ;
+
+.hobbie-img {
+    margin-top: 20px;
     margin-bottom: 10px;
     width: 250px;
     height: 150px;
     border-radius: 15px
 }
-.hobbie-title{
-    margin-bottom:5px ;
+
+.hobbie-title {
+    margin-bottom: 5px;
     color: #333333;
 }
-.hobbie-des{
+
+.hobbie-des {
     font-size: 15px;
     color: #828282;
     font-weight: 500;
 }
 
 /* Hobbie card style end */
+
+/* Skills card style start  */
+
+#skills {
+    display: flex;
+    gap: 20px;
+}
+
+.skill {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.bar-container {
+    width: 150px;
+    height: 10px;
+    border-radius: 12px;
+    background-color: #C4C4C4;
+}
+
+.bar {
+    height: 10px;
+    background-color: #2F80ED;
+    border-radius: 12px;
+    animation: my-animation 2s ease;
+}
+
+@keyframes my-animation{
+    from{
+        width: 0%;
+    }
+}
+/* Skills card style end  */
