@@ -31,7 +31,8 @@ body {
     width: 250px;
     background-color: #FFFFFF;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 .hero-img {
@@ -67,3 +68,32 @@ body {
     font-weight: 500;
 }
 /* Developer Intro card style end  */
+
+
+/* Experience style start */
+.card-title{
+    color: #4F4F4F;
+    font-weight: 600;
+}
+.experiences{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    width: 60px;
+}
+.date-position{
+    margin-bottom: 15px;
+}
+.date{
+    font-size: 14px;
+    margin-bottom: 3px;
+    color: #828282;
+}
+.job-description{
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+}
+/* Experience style end */
