@@ -70,7 +70,7 @@ body {
 /* Developer Intro card style end  */
 
 
-/* Experience style start */
+/* Experience card style start */
 .card-title{
     color: #4F4F4F;
     font-weight: 600;
@@ -96,4 +96,28 @@ body {
     font-weight: 500;
     color: #828282;
 }
-/* Experience style end */
+/* Experience card style end */
+
+
+/* Hobbie card style start */
+.hobbie{
+    margin-top: 15px;
+}
+.hobbie-img{
+    margin-top:20px ;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 150px;
+    border-radius: 15px
+}
+.hobbie-title{
+    margin-bottom:5px ;
+    color: #333333;
+}
+.hobbie-des{
+    font-size: 15px;
+    color: #828282;
+    font-weight: 500;
+}
+
+/* Hobbie card style end */
