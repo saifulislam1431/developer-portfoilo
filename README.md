@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://effervescent-zuccutto-714353.netlify.app/">
+    <a href="https://developer-portfoilo.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/saifulislam1431/404-not-found">
+    <a href="https://github.com/saifulislam1431/developer-portfoilo">
       Solution
     </a>
     <span> | </span>
@@ -41,7 +41,7 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-  --> If want to see demo then please follow this url(https://effervescent-zuccutto-714353.netlify.app/)
+  --> If want to see demo then please follow this url(https://developer-portfoilo.vercel.app/)
 
 ### Built With
 
