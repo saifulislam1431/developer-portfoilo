@@ -41,7 +41,7 @@ body {
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 8px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .hero-img {
@@ -72,9 +72,13 @@ body {
     margin-right: 10px;
 }
 
-.description {
+.description,.description2 {
     color: #828282;
     font-weight: 500;
+}
+.description2{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Developer Intro card style end  */
@@ -240,3 +244,18 @@ body {
    color: #FFFFFF;
 }
 /* project card style  end*/
+
+#blogs{
+    margin-top: 80px;
+}
+.blog{
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #E0E0E0;
+}
+.link{
+    font-weight: 500;
+    text-decoration: none;
+    color: #2F80ED;
+}
